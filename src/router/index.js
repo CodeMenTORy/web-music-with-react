@@ -2,12 +2,12 @@ import Discover from '@/pages/discover';
 import Mine from '@/pages/mine';
 import Friend from '@/pages/friend';
 import { Redirect } from 'react-router-dom';
-import Recommend from '../pages/discover/children-pages/recommend/idnex';
-import Ranking from '../pages/discover/children-pages/ranking/idnex';
-import Songs from '../pages/discover/children-pages/songs/idnex';
-import Djradio from '../pages/discover/children-pages/djradio/idnex';
-import Artist from '../pages/discover/children-pages/artist/idnex';
-import Album from '../pages/discover/children-pages/album/idnex';
+import Recommend from '../pages/discover/children-pages/recommend';
+import Ranking from '../pages/discover/children-pages/ranking';
+import Songs from '../pages/discover/children-pages/songs';
+import Djradio from '../pages/discover/children-pages/djradio';
+import Artist from '../pages/discover/children-pages/artist';
+import Album from '../pages/discover/children-pages/album';
 
 const routes = [
   {
