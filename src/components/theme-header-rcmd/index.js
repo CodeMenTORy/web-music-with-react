@@ -29,7 +29,7 @@ const ThemeHeaderRCM = memo(function (props) {
   );
 });
 
-ThemeHeaderRCM.PropTypes = {
+ThemeHeaderRCM.propTypes = {
   title: PropTypes.string.isRequired,
   keywords: PropTypes.array,
 };
