@@ -10,8 +10,8 @@ export default memo(function SongsCover(props) {
     <SongsCoverWrapper>
       <div className="cover-top">
         <img src={getSizeImage(info.picUrl, 140)} alt="" />
-        <div className="cover sprite_cover">
-          <div className="info sprite_cover">
+        <div className="cover image_cover">
+          <div className="info">
             <span>
               <i className="sprite_icon erji"></i>
               {getCount(info.playCount)}
